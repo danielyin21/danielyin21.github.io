@@ -6,8 +6,7 @@ title: Haoran Yin # the website title (if blank, full name will be used instead)
 first_name: Haoran
 middle_name:
 last_name: Yin
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: Hope you have a nice day # note shown under the social icons on the about page
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic website.
 footer_text: >
@@ -128,17 +127,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: # no external blog feeds; see al-folio docs to pull posts from Medium or other RSS feeds
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -279,8 +268,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yin]
+  first_name: [Haoran, H.]
 
   style: apa
   locale: en
